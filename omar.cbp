@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="omar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/omar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libcrypto.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libcrypto_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libssl_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/capi.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/dasync.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/ec_internal_test.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/evp_extra_test2.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/legacy.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libapps.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcommon.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcrypto.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcrypto_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libdefault.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/liblegacy.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libssl_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libtestutil.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/loader_attic.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/openssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/ossltest.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/p_minimal.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/p_test.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/padlock.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/omar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/capi.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/capi.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/dasync.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/ec_internal_test.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/evp_extra_test2.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/legacy.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libapps.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcommon.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcrypto.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcrypto_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libdefault.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/liblegacy.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libssl_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libtestutil.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/loader_attic.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/openssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/ossltest.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/p_minimal.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/p_test.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/padlock.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MDd/libcrypto.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MDd/libcrypto_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MDd/libssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MDd/libssl_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libcrypto.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libcrypto_static.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libssl.lib" />
+					<Add library="C:/Program Files/OpenSSL-Win64/lib/VC/x64/MTd/libssl_static.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files/OpenSSL-Win64/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Program Files/OpenSSL-Win64/lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
